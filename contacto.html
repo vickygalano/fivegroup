@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+
+    <!-----  Google Fonts  -------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;200;300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!------- Fontawesome  ----->
+    <script src="https://kit.fontawesome.com/5ffb53dc77.js" crossorigin="anonymous"></script>
+
+    <!------- Animate.css  ----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="./styles/contacto.css">
+
+    <script defer src="./js/menu.js"></script>
+
+    <script src="./js/contacto.js"></script>
+
+    <title>Five Group - Contacto</title>
+</head>
+
+<body>
+    <!-- //////////////////////// COMIENZO DEL HEADER //////////////////////-->
+    <header>
+        <section class="logo">
+            <a href="index.html">
+                <h1 class="animate__animated animate__bounceInRight">FIVE GROUP</h1>
+            </a>
+        </section>
+        <button class="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <section class="nav-menu">
+            <nav class="nav-menu-items">
+                <a href="index.html#services-container" class="nav-menu-link">Servicios</a>
+                <a href="quienessomos.html" class="nav-menu-link">Quienes somos</a>
+                <a href="recuperacion-fisica.html" class="nav-menu-link">Recuperación Física</a>
+                <a href="contacto.html" class="nav-menu-link">Contacto</a>
+            </nav>
+        </section>
+
+
+        <section class="home-title">
+            <h2 class="animate__animated animate__bounceInLeft">Centro Integral de Entrenamiento y Evaluaciones Físicas
+                Deportivas</h2>
+        </section>
+    </header>
+
+    <!-- //////////////////////// FIN DEL HEADER //////////////////////-->
+
+    <main>
+        <section id="contenedor">
+            <h2 id="titulo">En FIVE GROUP estamos para ayudarte</h2>
+
+            <section id="contenedor-hijo">
+
+                <section id="contenedor-nieto">
+                    <section id="formulario-text">
+                        <h3>Completá el formulario para contactarte con nosotros.</h3>
+                        <ul>
+                            <li id="easterEgg" onclick="sorpresa()">Dirección: Calle Falsa 123, Caba</li>
+                            <li>Teléfono: 1140987636</li>
+                        </ul>
+                        <section id="whatsapp">
+                            <h3>También podés contactarnos por Whatsapp</h3>
+                            <a href="https://wa.me/+5491150494316" target="_blank" class="whatsapp"><i
+                                    class="fa-brands fa-whatsapp fa-beat" style="color: #0e5205;"></i></a>
+                        </section>
+                    </section>
+
+                    <section id="mapa">
+                        <iframe mapa
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26284.414516573477!2d-58.50402653217315!3d-34.56490148949679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb67d776e79c9%3A0xe8722cf090719409!2sHospital%20Pirovano!5e0!3m2!1ses!2sar!4v1678731232771!5m2!1ses!2sar"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
+                </section>
+
+                <section id="formularios">
+                    <h2>Formulario de registro</h2>
+                    <form action="link" method="get" target="_blank" id="formularioValidado">
+
+                        <section id="personal">
+                            <section class="nombre">
+                                <label for="name" class="grupo">Nombre y apellido: </label>
+                                <input type="text" name="name" id="name"
+                                    placeholder="Ingrese su nombre y apellido aquí.." class="grupo">
+                            </section>
+                            <p id="errorNombre"></p>
+
+                            <section id="contacto">
+                                <section class="telefono">
+                                    <label for="phone">Teléfono: </label>
+                                    <input type="number" name="phone" id="phone"
+                                        placeholder="Ingrese su telefono aquí..">
+                                </section>
+                                <p id="errorTelefono"></p>
+
+                                <section class="mail">
+                                    <label for="email">Mail: </label>
+                                    <input type="email" name="email" id="email" placeholder="Ingrese su mail aquí..">
+                                </section>
+                                <p id="errorMail"></p>
+                            </section>
+
+                            <section id="servicios">
+                                <label for="service">Qué servicios desea consultar: </label>
+
+                                <section id="opciones">
+                                    <input type="checkbox" name="bioimpedancia" id="bioimpedancia" class="checkbox">
+                                    <label for="bioimpedancia" class="checkbox">Bioimpedancia</label>
+
+                                    <input type="checkbox" name="antropometria" id="antropometria" class="checkbox">
+                                    <label for="antropometria" class="checkbox">Antropometría</label>
+
+                                    <input type="checkbox" name="distancia" id="distancia" class="checkbox">
+                                    <label for="distancia" class="checkbox">Entrenamiento a distancia</label>
+
+                                    <input type="checkbox" name="equipos-deportivos" id="equipos-deportivos"
+                                        class="checkbox">
+                                    <label for="equipos-deportivos" class="checkbox">Entrenamiento para equipos
+                                        deportivos</label>
+
+                                    <input type="checkbox" name="linea" id="linea" class="checkbox">
+                                    <label for="linea" class="checkbox">Entrenamiento en línea</label>
+
+                                    <input type="checkbox" name="monitoreo" id="monitoreo" class="checkbox">
+                                    <label for="monitoreo" class="checkbox">Gps y monitoreo cardíaco</label>
+
+                                    <input type="checkbox" name="rehabilitacion" id="rehabilitacion" class="checkbox">
+                                    <label for="rehabilitacion" class="checkbox">Rehabilitación de lesiones</label>
+
+                                    <input type="checkbox" name="personalizado" id="personalizado" class="checkbox">
+                                    <label for="personalizado" class="checkbox">Entrenamiento personalizado</label>
+
+                                    <input type="checkbox" name="test-pilometria" id="test-pilometria" class="checkbox">
+                                    <label for="test-pilometria" class="checkbox">Test de pliometría</label>
+                                </section>
+                                <p id="errorCheckbox"></p>
+                            </section>
+
+                            <section id="comentarios">
+                                <label for="comentarios">Comentarios: </label>
+                                <textarea name="comentarios" id="comentarios" cols="20" rows="5"
+                                    placeholder="Ingrese su consulta aquí.."></textarea>
+                            </section>
+
+                            <section id="terminos">
+                                <input type="checkbox" name="terminosCondiciones" id="terminosCondiciones"
+                                    class="terminosCondiciones">
+                                <label for="terminosCondiciones" class="terminosCondiciones">He leído y acepto los <a
+                                        href="https://www.argentina.gob.ar/terminos-y-condiciones"
+                                        target="_blank">términos y condiciones de uso</a>.</label>
+                            </section>
+                            <p id="errorTerminos"></p>
+
+                            <section class="enviar">
+                                <input type="submit" value="Enviar" onclick="validarForm(event)">
+                            </section>
+                    </form>
+                </section>
+            </section>
+
+            <!--
+        <section id="newsletter">
+            <h2 id="newsletter">Suscribite a nuestro newsletter</h2>
+            <form action="link">
+                <label for="Suscribirme"class="form-label" >
+                <button><a href="#">Suscribite</a></button>
+            </form>
+        </section>
+        -->
+        </section>
+
+        <!--
+
+        <form id="formulario-contenedor">
+            <fieldset id="datos"> 
+            <legend id="contacto"> 
+               
+                
+            </legend>
+
+            <div class="email">
+                <label for="exampleFormControlInput1" class="form-label" >Dirección de correo</label>
+                <input type="email" class="form-control" id="exampleFormControlTextarea1" placeholder="name@example.com">
+              </div>
+
+              <div class="servicios">
+                <label for="servicios">Deseo información acerca de:</label>
+                <select id="servicios" name="servicios[]" multiple>
+                  <option value="bioimpedancia">Bioimpedancia</option>
+                  <option value="antropometria">Antropometría</option>
+                  <option value="adistancia">Entrenamiento a distancia</option>
+                  <option value="equipos">Entrenamiento para equipos deportivos</option>
+                  <option value="enlinea">Entrenamiento en línea</option>
+                  <option value="gps">Gps y monitoreo cardíaco</option>
+                  <option value="lesiones">Rehabilitación de lesiones</option>
+                  <option value="personalizado">Entrenamiento personalizado</option>
+                  <option value="pliometria">Test de pliometría</option>
+                </select>
+            
+                </div>
+         
+              <div class="consulta">
+                <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+              </div>
+                <button><a href="#">Enviar</a></button> 
+            </fieldset>    
+        </form>
+        -->
+
+    </main>
+
+    <!-- //////////////////////// COMIENZO DEL FOOTER //////////////////////-->
+
+    <footer id="footer">
+
+        <p class="footer-msg">¡Próximamente <span class="span-caps">Redes Sociales!</span></p>
+
+        <nav id="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </nav>
+
+        <section class="footer-info">
+            <span class="span-text">Desarrollado para:</span>
+            <span class="span-codo">&lt; Codo a Codo 4.0/&gt;</span>
+            <span class="span-caps"> FULL STACK PYTHON 2023</span>
+        </section>
+
+        <section class="footer-authors">
+            <p> Authors:
+                <span class="span-author">&lt;Maria Victoria Galano/&gt;</span>
+                <span class="span-author">&lt;Gabriel Emiliano Amarilla/&gt;</span>
+                <span class="span-author">&lt;Matías Iván Chirivella Alcántara/&gt;</span>
+                <span class="span-author">&lt;Ramón Soria Bravo/&gt;</span>
+            </p>
+        </section>
+        <hr>
+        <p>© 2023 - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- //////////////////////// FIN DEL FOOTER //////////////////////-->
+
+</body>
+
+</html>

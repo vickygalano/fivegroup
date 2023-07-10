@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+     <!-- Open Graph data -->
+     <meta property="og:title" content="CODO a CODO - Desarrollo web" />
+     <meta property="og:type" content="Desarrollo Web" />
+     <meta property="og:url" content="https://ramonsoriabravo.github.io/FiveGroupWeb/" />
+     <meta property="og:image" content="https://ramonsoriabravo.github.io/FiveGroupWeb/img/meta-image.png" />
+     <meta property="og:description" content="Desarrollo Web Front-End (HTML, CSS, Javascript)" />
+
+    <!-----  Google Fonts  -------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;200;300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!------- Fontawesome  ----->
+    <script src="https://kit.fontawesome.com/5ffb53dc77.js" crossorigin="anonymous"></script>
+
+    <!------- Animate.css  ----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <script defer src="./js/menu.js"></script>
+
+    <title>Five Group - Home</title>
+</head>
+
+<body>
+    <!-- //////////////////////// COMIENZO DEL HEADER //////////////////////-->
+    <header>
+        <section class="logo">
+            <a href="index.html">
+                <h1 class="animate__animated animate__bounceInRight">FIVE GROUP</h1>
+            </a>
+        </section>
+        <button class="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <section class="nav-menu">
+            <nav class="nav-menu-items">
+                <a href="#services-container" class="nav-menu-link">Servicios</a>
+                <a href="quienessomos.html" class="nav-menu-link">Quienes somos</a>
+                <a href="recuperacion-fisica.html" class="nav-menu-link">Recuperación Física</a>
+                <a href="contacto.html" class="nav-menu-link">Contacto</a>
+            </nav>
+        </section>
+
+
+        <section class="home-title">
+            <h2 class="animate__animated animate__bounceInLeft">Centro Integral de Entrenamiento y Evaluaciones Físicas
+                Deportivas</h2>
+        </section>
+    </header>
+
+    <!-- //////////////////////// FIN DEL HEADER //////////////////////-->
+
+    <main>
+        <section class="home-info-container">
+            <section class="home-info-text">
+                <h2>Bienvenidos a Five Group:</h2>
+                <p>Somos un servicio médico multidisiplinario, especializado en medicina del deporte y actividad física.
+                    Contamos con personal altamente capacitado en el diagnóstico, tratamiento, rehabilitación de
+                    lesiones
+                    músculo esqueléticas, nutrición y psicología deportiva.</p>
+            </section>
+            <section class="home-info-ima">
+                <img src="./img/home-sports.jpg" alt="imagen de deportistas">
+            </section>
+        </section>
+
+        <section id="services-container">
+            <h2>Nuestros Servicios</h2>
+            <hr>
+            <article>
+                <details>
+                    <summary>Antropometría</summary>
+                    <section class="article-container">
+
+                        <section class="detail-text">
+                            <p>La antropometría consiste en una serie de mediciones técnicas sistematizadas que expresa,
+                                cuantitatívamente,
+                                las dimensiones del cuerpo humano. Esta técnica tiene una larga tradición de uso en la
+                                Educación
+                                Física
+                                y en las Ciencias Deportivas, y ha encontrado un incremento en su uso en las Ciencias
+                                Biomédicas.</p>
+                            <button><a href="antropometria.html">+ Info</a></button>
+                        </section>
+
+                        <figure>
+                            <img src="./img/home-antropometria.jpg" alt="Imagen Antropometría">
+                        </figure>
+
+                    </section>
+
+                </details>
+            </article>
+
+            <article>
+                <details>
+                    <summary>Bioimpedancia</summary>
+                    <section class="article-container">
+
+                        <section class="detail-text">
+                            <p>La Bioimpedancia es un método seguro, económico, preciso y no invasivo que proporciona
+                                datos
+                                sobre la composición corporal de una persona.
+                                Consiste en una corriente eléctrica de bajísima intensidad recorre los miembros
+                                inferiores
+                                permitiendo valorar su resistencia.</p>
+                            <button><a href="bioimpedancia.html">+ Info</a></button>
+                        </section>
+                        <figure>
+                            <img src="./img/home-bioimpedancia.png" alt="Imagen Bioimpedancia">
+                        </figure>
+
+                    </section>
+                </details>
+            </article>
+
+            <article>
+                <details>
+                    <summary>Entrenamiento Para Equipos Deportivos</summary>
+                    <section class="article-container">
+
+                        <section class="detail-text">
+                            <p>El entrenamiento deportivo es un proceso pedagógico destinado a estimular los procesos
+                                fisiológicos del organismo, favoreciendo el desarrollo de las diferentes capacidades y
+                                cualidades físicas. Su objetivo es promover y consolidar el rendimiento deportivo.</p>
+                            <button><a href="e-deportivo.html">+ Info</a></button>
+                        </section>
+                        <figure>
+                            <img src="./img/home-training.jpg" alt="Imagen deportistas entrenando">
+                        </figure>
+
+                    </section>
+                </details>
+            </article>
+
+            <article>
+                <details>
+                    <summary>Entrenamiento Personalizado</summary>
+                    <section class="article-container">
+
+                        <section class="detail-text">
+                            <p>Ofrecemos servicios de entrenamiento personalizado con profesores altamente capacitados,
+                                dietas personalizadas y rutinas de ejercicio adaptadas a tus necesidades específicas.
+                                Nos comprometemos a trabajar contigo para alcanzar tus objetivos de forma efectiva y
+                                segura, al mismo tiempo que te mantenemos motivado y en forma.</p>
+                            <button><a href="e-personal.html">+ Info</a></button>
+                        </section>
+                        <figure>
+                            <img src="./img/personalizado-entrenamiento-personalizado-mujer.jpg"
+                                alt="Imagen Entrenamiento Personalizado">
+                        </figure>
+
+                    </section>
+                </details>
+            </article>
+
+            <article>
+                <details>
+                    <summary>Asesoramiento en línea</summary>
+                    <section class="article-container">
+
+                        <section class="detail-text">
+                            <p> Con nuestro servicio de asesoramiento en línea, puedes tener acceso a los mejores
+                                profesionales
+                                de la industria del fitness, sin importar dónde te encuentres. ¡Únete a FIVE GROUP hoy y
+                                comienza
+                                a recibir el asesoramiento personalizado que necesitas para alcanzar tus objetivos de
+                                fitness!</p>
+                            <button><a href="asesoramiento.html">+ Info</a></button>
+                        </section>
+                        <figure>
+                            <img src="./img/asesoramiento.jpg" alt="Imagen Asesoramiento en línea">
+                        </figure>
+
+                    </section>
+                </details>
+            </article>
+
+            <article>
+                <details>
+                    <summary>Entrenamiento a distancia</summary>
+                    <section class="article-container">
+
+                        <section class="detail-text">
+                            <p>FIVE GROUP ofrece entrenamiento a distancia para que puedas mantener una rutina de
+                                fitness
+                                efectiva sin
+                                importar dónde te encuentres. Nuestros servicios incluyen clases grupales sincrónicas y
+                                asincrónicas,
+                                rutinas de entrenamiento personalizadas y acceso a nuestros profesionales altamente
+                                capacitados.</p>
+                            <button><a href="e-distancia.html">+ Info</a></button>
+                        </section>
+                        <figure>
+                            <img src="./img/distancia-hombre-conectado-celular.jpg"
+                                alt="Imagen entrenamiento a distancia">
+                        </figure>
+
+                    </section>
+                </details>
+            </article>
+
+            <article>
+                <details>
+                    <summary>Test de Pliometría</summary>
+                    <section class="article-container">
+
+                        <section class="detail-text">
+                            <p>El test de pliometría, mide el estado actual de “Fuerza Explosiva” con la que cuenta el
+                                deportista. Por medio de fórmulas físicas la plataforma arroja el Tiempo de Contacto y
+                                el Tiempo de Vuelo que el deportista desarrolla.</p>
+                            <button><a href="pliometria.html">+ Info</a></button>
+                        </section>
+                        <figure>
+                            <img src="./img/pliometria.jpg" alt="Imagen Test de Pliometria">
+                        </figure>
+
+                    </section>
+                </details>
+            </article>
+
+            <article>
+                <details>
+                    <summary>Rehabilitación de lesiones</summary>
+                    <section class="article-container">
+
+                        <section class="detail-text">
+                            <p>Hoy el alto rendimiento por diversos motivos “fabrica” lesionados de todo tipo.
+                                Sabemos que existen las lesiones accidentales pero tambien las evitables. No
+                                adherimos a la postura de “psicologizar” toda lesión, pero tampoco a desconocer la
+                                influencia de factores mentales y emocionales desde la multicausalidad de la lesión.</p>
+                            <button><a href="lesiones.html">+ Info</a></button>
+                        </section>
+                        <figure>
+                            <img src="./img/tipo-lesiones-deportivas.jpeg" alt="Imagen Rehabilitación de lesiones">
+                        </figure>
+
+                    </section>
+                </details>
+            </article>
+
+            <article>
+                <details>
+                    <summary>GPS, Monitoreo cardíaco y de distancia personal</summary>
+                    <section class="article-container">
+
+                        <section class="detail-text">
+                            <p>Los sistemas GPS en deportes de equipo son una herramienta que nos permiten conocer
+                                multitud de variables de carga de los jugadores, y que nos puede ayudar a controlar
+                                esta, a reducir la probabilidad de lesión y a la recuperación de lesionados.</p>
+                            <button><a href="monitoreo.html">+ Info</a></button>
+                        </section>
+                        <figure>
+                            <img src="./img/gps.png" alt="Imagen Monitoreo cardiaco y de distancia">
+                        </figure>
+
+                    </section>
+                </details>
+            </article>
+
+        </section>
+
+
+    </main>
+
+    <!-- //////////////////////// COMIENZO DEL FOOTER //////////////////////-->
+
+    <footer id="footer">
+
+        <p class="footer-msg">¡Próximamente <span class="span-caps">Redes Sociales!</span></p>
+
+        <nav id="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </nav>
+
+        <section class="footer-info">
+            <span class="span-text">Desarrollado para:</span>
+            <span class="span-codo">&lt; Codo a Codo 4.0/&gt;</span>
+            <span class="span-caps"> FULL STACK PYTHON 2023</span>
+        </section>
+
+        <section class="footer-authors">
+            <p> Authors:
+                <span class="span-author">&lt;Maria Victoria Galano/&gt;</span>
+                <span class="span-author">&lt;Gabriel Emiliano Amarilla/&gt;</span>
+                <span class="span-author">&lt;Matías Iván Chirivella Alcántara/&gt;</span>
+                <span class="span-author">&lt;Ramón Soria Bravo/&gt;</span>
+            </p>
+        </section>
+        <hr>
+        <p>© 2023 - Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- //////////////////////// FIN DEL FOOTER //////////////////////-->
+
+</body>
+
+</html>
